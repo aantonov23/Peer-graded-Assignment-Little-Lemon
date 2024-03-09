@@ -1,7 +1,7 @@
 HI!
 
 API for testing
-# Create New User
+### Create New User
 http://127.0.0.1:8000/auth/users/
 
 # Get Token (POST only)
