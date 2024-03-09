@@ -31,12 +31,12 @@ class BookingViewSet(ModelViewSet):
 
 
 # Create your views here.
+# def index(request):
+#     return render(request, 'index.html', {})
+
+
 def index(request):
-    return render(request, 'index.html', {})
-
-
-def home(request):
-    return render(request, 'index-home.html')
+    return render(request, 'index.html')
 
 
 def about(request):
